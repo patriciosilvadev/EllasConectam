@@ -18,7 +18,7 @@ const DefaultOverlayContent: React.FC<Props> = ({
       </Heading>
       <Buttons>
         <button>Entrar em contato</button>
-        <button className='dark'>Conhecer a equipe</button>
+        <button className='white'>Conhecer a equipe</button>
       </Buttons>
     </Container>
   );

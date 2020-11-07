@@ -20,7 +20,7 @@ const Page: React.FC = () => {
               modelName={modelName}
               overlayNode={
                 <DefaultOverlayContent label={modelName}
-                description="teste"/>
+                description="tt"/>
               }
             />
           ))}
