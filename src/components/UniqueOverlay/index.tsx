@@ -6,23 +6,25 @@ const UniqueOverlay: React.FC = () => {
   return (
     <Container>
       <Header>
-        <Logo/>
+        <Logo>
+          <img src="img/ELLAS_SEMFUNDO.png" alt="Logo EllasConectam"/>
+        </Logo>
         <Burguer/>
       </Header>
 
       <Footer>
         <ul>
           <li>
-            <a href="#"></a>
+            <a href="#">teste</a>
           </li>
           <li>
-            <a href="#"></a>
+            <a href="#">teste</a>
           </li>
           <li>
-            <a href="#"></a>
+            <a href="#">teste</a>
           </li>
           <li>
-            <a href="#"></a>
+            <a href="#">teste</a>
           </li>
         </ul>
       </Footer>
