@@ -4,7 +4,6 @@ export const Container = styled.div`
 
 .colored:nth-child(1) {
 background: #c6f1ec;
-    
 }
 .colored:nth-child(2) {
 background: #c6f1ec;

@@ -19,8 +19,6 @@ export const Header = styled.header`
     justify-content:space-between;
     padding: 0 20px;
     min-height: 100px;
-    background-color:black;
-    max-width:90%;
     margin-left:50px;
     border-radius:10px;
     
