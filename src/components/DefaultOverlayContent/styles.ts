@@ -68,9 +68,11 @@ export const Heading = styled.div`
         }
         >h1{
             margin: 0 70px 0 70px;
+            font-size: 30px;
         }
         >h2{
             margin: 0 70px 0 70px;
+            font-size: 20px;
         }
         
     }  
@@ -82,20 +84,21 @@ export const Heading = styled.div`
         }
         .Divs{
             > h2 {
-                margin: 0 10px 0 10px;
+                margin: 0 20px 0 10px;
+                font-size:18px;
             }
             >h1{
                 font-size:28px;
             }
         }
         > h1{
-            margin: -100px 150px 0 150px;
+            margin: -60px 200px 0 200px;
+            font-size: 28px;
         }
         > h2 {
                 margin: 0 180px 0 180px;
         }
     }
-    
 `;
 export const Buttons = styled.div`
     display:flex;
@@ -144,13 +147,13 @@ export const Buttons = styled.div`
         flex-direction: row;
         >.black{
             padding: 8px 35px;
-            margin: 0 10px 0 0  ;
+            margin: 0 10px 50px 0  ;
             font-size: 11px;
             text-align: row;
         }
         >.white{
             padding: 13px 40px;
-            margin-bottom:10px;
+            margin-bottom:55px;
         }
     }
 
