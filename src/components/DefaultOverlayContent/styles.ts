@@ -40,7 +40,7 @@ export const Heading = styled.div`
         font-size: 40px;
         line-height: 30px;
         color: #393c41;
-        margin: 0 70px 0 70px;
+        margin: 20px 70px 0 70px;
         }
     }
     .DivSubjectAll{
@@ -54,7 +54,7 @@ export const Heading = styled.div`
             color: #5c5e62;
         }
     }
-    @media (max-width: 900px){
+    @media (max-width: 1100px){
         .DivSubjectAll{
             > h2 {
                 margin: 30px 60px 0 60px;
@@ -76,7 +76,7 @@ export const Heading = styled.div`
         }
         
     }  
-    @media (max-width: 500px){
+    @media (max-width: 800px){
          .DivSubjectAll{
             > h2 {
                 margin: 0 180px 0 180px;
@@ -160,7 +160,7 @@ export const Buttons = styled.div`
 `;
 export const Img = styled.div`
     > img {
-        max-height: 100vh;
+        max-height: 60vh;
         max-width: 32% ;
         display:table-cell;
         float:left;

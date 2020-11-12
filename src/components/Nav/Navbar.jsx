@@ -26,7 +26,7 @@ const Nav = styled.nav`
       }
     }
   }
-  @media (max-width: 500px){
+  @media (max-width: 650px){
     border-bottom: 0;
     .logo {
       

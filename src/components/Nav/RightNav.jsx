@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import {useHistory} from 'react-router-dom';
+
 const Ul = styled.ul`
   list-style: none;
   display: flex;
@@ -8,6 +10,14 @@ const Ul = styled.ul`
 
   li {
     padding: 18px 10px;
+    > button{
+      border-radius:10px;
+      font-size: 20px;
+      color: black;
+      background-color: transparent;
+      border: none;
+      padding: 10px 10px;
+    }
   }
 
   @media (max-width: 768px) {
@@ -24,16 +34,21 @@ const Ul = styled.ul`
 
     li {
       color: #fff;
+      > button{
+        color: white;
+      }
     }
   }
 `;
 
 const RightNav = ({ open }) => {
+  const history = useHistory();
   return (
     <Ul open={open}>
-      <li>Home</li>
-      <li>About Us</li>
-      <li>Contact Us</li>
+      <li><button onClick={() => history.push('/')}>Home</button></li>
+      <li><button onClick={() => history.push('/equipe')}>Equipe</button></li>
+      <li><button onClick={() => history.push('/Lives')}>Lives</button></li>
+      <li><button onClick={() => history.push('/Patrocinadores')}>Patrocinadores</button></li>
     </Ul>
   )
 }
