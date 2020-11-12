@@ -6,7 +6,18 @@ import UniqueOverlay from '../../UniqueOverlay'
 
 const Lives: React.FC = () => {
 
-  const [Lives, setLives] = useState([{live:"https://www.youtube.com/embed/3S_fpWCnJ98",desc:'CHAMADA EMPYRUS TV'},{live:"https://www.youtube.com/embed/96Gt1EC9TD",desc:'VINHETA ELLAS CONECTAM'},{live:"https://www.youtube.com/embed/2Bb4J0crBNo",desc:'30/09  - PRIMEIRO PROGRAMA ELLAS CONECTAM'},{live:"https://www.youtube.com/embed/CqllMMh9TRA",desc:'07/10 - ELLAS CONECTAM COM HENRIQUE AKIBA'},{live:"https://www.youtube.com/embed/r0Vmj9hRjXM",desc:'14/10 - ELLAS CONECTAM COM MARCO AURÉLIO'},{live:"https://www.youtube.com/embed/tSVJWRh-xLM",desc:'21/10 - ELLAS CONECTAM COM IRINEU DOS SANTOS'}]);
+  const [Lives, setLives] = useState([
+    {live:"https://www.youtube.com/embed/tSVJWRh-xLM",desc:'21/10 - ELLAS CONECTAM COM IRINEU DOS SANTOS'},
+    {live:"https://www.youtube.com/embed/r0Vmj9hRjXM",desc:'14/10 - ELLAS CONECTAM COM MARCO AURÉLIO'},
+    {live:"https://www.youtube.com/embed/CqllMMh9TRA",desc:'07/10 - ELLAS CONECTAM COM HENRIQUE AKIBA'},
+    {live:"https://www.youtube.com/embed/2Bb4J0crBNo",desc:'30/09  - PRIMEIRO PROGRAMA ELLAS CONECTAM'},
+    {live:"https://www.youtube.com/embed/3S_fpWCnJ98",desc:'CHAMADA EMPYRUS TV'},
+    {live:"https://www.youtube.com/embed/96Gt1EC9TD",desc:'VINHETA ELLAS CONECTAM'},
+    
+    
+    
+   
+  ]);
 
   return (
     <Container>

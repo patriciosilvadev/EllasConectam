@@ -4,7 +4,7 @@ export const Container = styled.div`
     position:sticky;
     flex-wrap:wrap;
     background-color: #c6f1ec;
-
+    height:100vh;
     display:flex;
     flex-direction: column;
     align-items:center;
@@ -14,12 +14,12 @@ export const Container = styled.div`
 
 
 export const Iframes = styled.div`
-padding: 120px 0 0 6%;
+padding: 120px 0 70px 6%;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 gap: 30px;
 background-color: #c6f1ec;
-margin-bottom:70px;
+
 
 .teste{
     margin-top: 10px;
@@ -29,6 +29,7 @@ margin-bottom:70px;
             width:90%;
     }
     > h1 {
+        font-size:20px;
     }
     
 }
